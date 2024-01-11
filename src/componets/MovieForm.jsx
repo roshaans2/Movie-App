@@ -41,7 +41,6 @@ const MovieForm = () => {
     <div className="details">
       <input type="text" value={title} onChange={(evt) => setTitle(evt.target.value)} />
       <button onClick={handleSubmit}>Search</button>
-        {isLoading && <p>Loading...</p>}
       {data.Plot && (
         <div className="movie-details">
           <h2>{data.Title} ({data.Year})</h2>
