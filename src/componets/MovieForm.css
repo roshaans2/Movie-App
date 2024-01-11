@@ -1,0 +1,45 @@
+/* MovieForm.css */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+  }
+  
+  .details {
+    width: 48%; /* Adjust as needed */
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .details button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  .movie-details {
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    width: 48%; /* Adjust as needed */
+  }
+  
+  .poster {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
